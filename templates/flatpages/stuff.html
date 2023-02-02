@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ flatpage.title }}</title>
+</head>
+<body>
+<h2>{{ flatpage.title }}</h2>
+<hr>
+<h3>sgdgshfgjfjgdhkkfjk:</h3>{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <h3>dfsgdfggsdgfdg52828285282852:</h3>
+{{ flatpage.content }}
+{{ flatpage.content }}
+{% endblock content %}
+</body>
+</html>
